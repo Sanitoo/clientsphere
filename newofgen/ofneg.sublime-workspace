@@ -1,0 +1,431 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mr",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"re",
+				"red"
+			],
+			[
+				"gen",
+				"genpdf"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"PASS",
+				"passkey"
+			],
+			[
+				"mysql_fetc",
+				"mysql_fetch_assoc()"
+			],
+			[
+				"hea",
+				"header()"
+			],
+			[
+				"hi",
+				"highScoreKey"
+			],
+			[
+				"H",
+				"highScoreKey"
+			],
+			[
+				"li",
+				"link"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"wh",
+				"white"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"w",
+				"white"
+			],
+			[
+				"Back",
+				"background-color"
+			],
+			[
+				"or",
+				"orangered"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"a",
+				"initial"
+			],
+			[
+				"m",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"o",
+				"orangered"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"na",
+				"nav-links"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"l",
+				"li"
+			],
+			[
+				"u",
+				"ul"
+			],
+			[
+				"s",
+				"section"
+			],
+			[
+				"d",
+				"div"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"mi",
+				"min-height"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"fo",
+				"font-weight"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/xampp/htdocs/ofgen/ofgen.html",
+			"settings":
+			{
+				"buffer_size": 2677,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/new ofgen/stoole.css",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/new ofgen/stiile.css",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/new ofgen/styyles.css",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/new ofgen/register.html",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/new ofgen/login.html",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/new ofgen/ofneg.html",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/crm.html",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/cfao/cou.html",
+		"/C/xampp/htdocs/ofgen/stile.css",
+		"/C/xampp/htdocs/ofgen/stole.css",
+		"/C/xampp/htdocs/ofgen/styles.css",
+		"/C/xampp/htdocs/ofgen/ofgen.html",
+		"/C/xampp/htdocs/ofgen/signin.html",
+		"/C/xampp/htdocs/ofgen/signup.html",
+		"/C/xamppppp/htdocs/ofgen/signin.php",
+		"/C/xamppppp/htdocs/ofgen/loginprocess.php",
+		"/C/xamppppp/htdocs/ofgen/processing.php",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/Digi/dclock.html",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/Clocks/clock.js",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/Clocks/clock.css",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/Clocks/clocks.html",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/New folder/genpdf.js",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/New folder/genpdf.css",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/survey.html",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/New folder/genpdf.html",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/Clocks/dclock.js",
+		"/C/xamppppp/htdocs/ofgen/signup.html",
+		"/C/xamppppp/htdocs/ofgen/signin.html",
+		"/C/xamppppp/htdocs/ofgen/snake/style.css",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/snake/scriptanity.js",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/snake/snanity.html",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/snake/scriptard.js",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/snake/snard.html",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/snake/scriptsy.js",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/snake/sneasy.html",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/snake/style.css",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/snake/script.js",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/snake/snake.html",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/ofgen/stile.css",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/ofgen/signup.html",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/ofgen/stole.css",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/ofgen/signin.html",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/ofgen/styles.css",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/ofgen/ofgen.html",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/cfao/style.css",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/cfao/cfao.html",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/cofee/cofee.html",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/cofee/stole.css",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/mobil/stile.css",
+		"/C/Users/Fatuma Abdikadir/OneDrive/Desktop/mobil/mobil.html",
+		"/C/Program Files/Sublime Text 3/ofgen/styles.css",
+		"/C/Program Files/Sublime Text 3/ofgen/ofgen.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/xampp/htdocs/ofgen/ofgen.html",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2677,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ofneg.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

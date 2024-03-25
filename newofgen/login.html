@@ -1,0 +1,132 @@
+<?php
+   if(isset($_POST['login'])){
+        $email = $_POST['loginEmail'];
+        $password = $_POST['loginPassword'];
+
+        $sql = "SELECT * FROM users WHERE email='$email'";
+        $result = mysqli_query($connect, $sql);
+
+        if (mysqli_num_rows($result) == 1) {
+            $row = mysqli_fetch_assoc($result);
+            if (password_verify($password, $row['password'])) {
+                $_SESSION['email'] = $email;
+                // Redirect to dashboard or any other page
+                header("Location: dashboard.php");
+                exit();
+            } else {
+                echo "Incorrect password";
+            }
+        } else {
+            echo "User not found";
+        }
+    }
+
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign in</title>
+  <link rel="stylesheet" type="text/css" href="stiile.css">
+  <link rel="icon"  href="cls.png" />
+</head>
+<body>
+<header class="header">
+      <nav class="navbar">
+        <h1 class="logo"><a href="#">CLIENTSPHERE</a></h1>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" id="hamburger-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+            <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </label>
+        <ul class="links">
+          <li><a href="ofneg.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="buttons">
+          <a href="login.html" class="signin">Sign In</a>
+          <a href="register.html" class="signup">Sign Up</a>
+        </div>
+      </nav>
+    </header>
+  <div class="wrapper">
+   <form onsubmit="validateForm(event)">
+
+      <h2>Login</h2>
+      
+        <div class="input-field">
+        <input type="email" name="email" id="email" required>
+        <label>Enter your email</label>
+       <div class="error" id="result1"></div>
+      </div>
+      <div class="input-field">
+        <input type="password" name="password" id = "password" required>
+       <div class="error" id="result2"></div> 
+        <label>Enter your password</label>
+      </div>
+      <div class="forget">
+        <label for="remember">
+          <input type="checkbox" id="remember">
+          <p>Remember me</p>
+        </label>
+        <a href="#">Forgot password?</a>
+      </div>
+      <button type="submit" name="login">Log In</button>
+      <div class="register">
+        <p>Don't have an account? <a href="register.html">Register</a></p>
+      </div>
+    </form>
+  </div>
+  <script>
+    
+function validateForm(event) {
+    event.preventDefault();
+    const email = document.getElementById('email').value.trim();
+    const password = document.getElementById('password').value.trim();
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%?&])[A-Za-z\d@$!%?&]{8,}$/;
+
+    if (!emailRegex.test(email)) {
+        document.getElementById('result1').innerHTML = "Enter a valid email address";
+        return false;
+    } else {
+        document.getElementById('result1').innerHTML = "";
+    }
+
+    if (!passwordRegex.test(password)) {
+        document.getElementById('result2').innerHTML = "Password must meet the following criteria:<br>" +
+            "- At least 8 characters long<br>" +
+            "- Contains at least one uppercase letter" +
+            "- Contains at least one lowercase letter" +
+            "- Contains at least one digit" +
+            "- Contains at least one special character<br>";
+        return false;
+    } else {
+        document.getElementById('result2').innerHTML = "";
+    }
+
+    
+
+    alert("Form submission SUCCESS!");
+    return true;
+}
+
+document.getElementById('password').addEventListener('input', function(event) {
+    const password = event.target.value.trim();
+    const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%?&])[A-Za-z\d@$!%?&]{8,}$/;
+
+    if (password.match(passwordRegex)) {
+        document.getElementById('result2').innerHTML = "";
+    }
+});
+
+
+  </script>
+</body>
+</html>

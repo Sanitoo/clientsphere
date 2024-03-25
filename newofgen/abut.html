@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CLIENTSPHERE</title>
+	<link rel="stylesheet" type="text/css" href="abut.css">
+	<link rel="icon"  href="cls.png" />
+</head>
+<body>
+<header>
+        <h1 class="logo"><a href="#">CLIENTSPHERE</a></h1>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+          <li><a href="about.php">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="contact.php">Contact Us</a></li>
+        </ul>
+
+    </header>
+
+        <div class="slider">
+        <!-- list Items -->
+        <div class="list">
+            <div class="item active">
+                <img src="cusab.jpeg">
+                <div class="content">
+                    <p>Key Components</p>
+                    <h2>Customer Data Management:</h2>
+                    <p>
+                          Clientsphere centralize customer information, such as contact details, purchase history, preferences, and interactions, into a single database or platform. This centralized data repository enables businesses to have a holistic view of each customer, facilitating personalized interactions and targeted marketing efforts.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="salab.jpeg">
+                <div class="content">
+                    <p>Key Components</p>
+                    <h2>Sales Automation:</h2>
+                    <p>
+                         Clientsphere automate various sales-related processes, such as lead management, opportunity tracking, and sales forecasting. By streamlining these processes, sales teams can prioritize leads, optimize their sales pipelines, and improve overall efficiency.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="markab.jpeg">
+                <div class="content">
+                    <p>Key Components</p>
+                    <h2>Marketing Automation:</h2>
+                    <p>
+                         Clientsphere enable targeted and personalized marketing campaigns by leveraging customer data to segment audiences, deliver tailored messaging, and track campaign performance. Marketing automation features streamline tasks like email marketing, lead nurturing, and customer segmentation, ultimately driving higher engagement and conversion rates.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- button arrows -->
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- thumbnail -->
+        <div class="thumbnail">
+            <div class="item active">
+                <img src="cusab.jpeg">
+                <div class="content">
+                    Customer data management
+                </div>
+            </div>
+            <div class="item">
+                <img src="salab.jpeg">
+                <div class="content">
+                    Sales automation
+                </div>
+            </div>
+            <div class="item">
+                <img src="markab.jpeg">
+                <div class="content">
+                    Marketing automation
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+let items = document.querySelectorAll('.slider .list .item');
+let next = document.getElementById('next');
+let prev = document.getElementById('prev');
+let thumbnails = document.querySelectorAll('.thumbnail .item');
+
+// config param
+let countItem = items.length;
+let itemActive = 0;
+// event next click
+next.onclick = function(){
+    itemActive = itemActive + 1;
+    if(itemActive >= countItem){
+        itemActive = 0;
+    }
+    showSlider();
+}
+//event prev click
+prev.onclick = function(){
+    itemActive = itemActive - 1;
+    if(itemActive < 0){
+        itemActive = countItem - 1;
+    }
+    showSlider();
+}
+// auto run slider
+let refreshInterval = setInterval(() => {
+    next.click();
+}, 5000)
+function showSlider(){
+    // remove item active old
+    let itemActiveOld = document.querySelector('.slider .list .item.active');
+    let thumbnailActiveOld = document.querySelector('.thumbnail .item.active');
+    itemActiveOld.classList.remove('active');
+    thumbnailActiveOld.classList.remove('active');
+
+    // active new item
+    items[itemActive].classList.add('active');
+    thumbnails[itemActive].classList.add('active');
+
+    // clear auto time run slider
+    clearInterval(refreshInterval);
+    refreshInterval = setInterval(() => {
+        next.click();
+    }, 5000)
+}
+
+// click thumbnail
+thumbnails.forEach((thumbnail, index) => {
+    thumbnail.addEventListener('click', () => {
+        itemActive = index;
+        showSlider();
+    })
+})
+</script>
+</body>
+</html>	
